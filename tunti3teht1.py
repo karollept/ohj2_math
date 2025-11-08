@@ -5,6 +5,7 @@ from fractions import Fraction as fr
 import matplotlib as mpl
 
 fig = plt.figure()
+fig.set_size_inches(6.4 * 3, 4.8)
 fig.suptitle("Yksikköympyrä ja kulmapisteet välillä $-3\\pi$ – $3\\pi$", fontsize=16)
 ax = fig.subplots()
 
